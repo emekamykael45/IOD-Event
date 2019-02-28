@@ -625,6 +625,74 @@ ul {
 }
 
 
+.adverts-section{    
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #fff;  
+}
+
+.advert-rate-text{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.table{
+    background: #fff;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    box-shadow: 0 3px 16px 0 rgba(182, 182, 182, 0.31);
+}
+
+.please-note-div{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.1em;
+}
+
+.please-note-div ul{
+    list-style-type: lower-roman;
+}
+
+.please-note-div ul li{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.reg-form-div{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.reg-form-div img{
+    border: 2px solid rgb(121, 121, 121);
+    width: 280px;
+    box-shadow: 0 3px 16px 0 rgba(126, 126, 126, 0.31);
+}
+
+.reg-form-div .img-info{
+    margin: 0 auto;
+    font-size: 1.1em;
+    background: rgb(121, 121, 121);
+    color: #fff;
+    width: 280px !important;
+    overflow-x: hidden;
+    padding: 10px;
+    box-shadow: 0 3px 16px 0 rgba(126, 126, 126, 0.31);
+}
+
+.reg-form-div .form-img-link:hover{
+    text-decoration: none;
+}
+
+.reg-form-div .form-img-link:hover > .img-info{
+    background: rgb(148, 148, 148);
+    color: #000;
+}
+
+
 @media screen and (max-width: 1140px) {
     .spon-parti .row{
         display: inline-block;
