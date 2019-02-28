@@ -422,6 +422,7 @@ ul {
 .section__title {
     text-transform: capitalize;
     font-size: 2em;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -548,6 +549,58 @@ ul {
     text-align: left;
     font-size: 1.1em;
 }
+
+.sponsor-cards{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #00adb5;
+}
+
+.spon-det-text{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.sponsor-cards .row{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+}
+
+.sponsor-cards .card{
+    background: #fff;
+}
+
+.sponsor-cards .card-title{
+    color: #00adb5;
+}
+
+.sponsor-cards .card-title span{
+    margin-left: 50px;
+    color: #000;
+}
+
+.sponsor-cards .card{
+    border: none;
+}
+
+.sponsor-cards .card hr{
+    background: #d3d3d3;
+}
+
+.sponsor-cards .platinum-card{
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.31);
+}
+
+.sponsor-cards .card-body ul{
+    list-style-type: square;
+}
+
+.sponsor-cards .card-body ul li{
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
 
 
 .spon-parti{
